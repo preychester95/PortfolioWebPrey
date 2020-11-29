@@ -1,0 +1,15 @@
+@import "~bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+@import "variables.scss";
+@import "presentation.scss";
+@import "projects.scss";
+@import "footer.scss";
+
+body{
+    color: $primaryColor;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}

@@ -1,0 +1,14 @@
+.Projects{
+    background-color: $backgroundColor;
+    color: #555555;
+    text-align: center;
+    .projectsContent{
+        padding: 2rem 0;
+        h2{
+            font-size: 2.25rem;
+            line-height: 1.3;
+            text-transform: uppercase;
+            margin: 0 0 1.5rem 0;
+        }
+    }
+}

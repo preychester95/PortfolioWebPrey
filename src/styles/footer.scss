@@ -1,0 +1,25 @@
+.Footer{
+    background-color: #111111;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    .footerContent{
+        padding: 2rem 0;
+        h3{
+            color: $textColor;
+            font-weight: 300;
+            font-size: 1.25rem;
+            line-height: 1.5;
+            text-transform: uppercase;
+        }
+        li{
+            display: inline;
+        }
+        .copyright{
+            border-top: 1px solid;
+            font-size: 0.8rem;
+            opacity: 0.5;
+            padding-top: 2rem;
+            text-align: center;
+        }
+    }
+}
