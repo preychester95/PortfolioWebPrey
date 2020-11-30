@@ -1,7 +1,8 @@
+import React from 'react'
 import Presentation from './Presentation'
 import Projects from './Projects'
+import Tools from './Tools'
 import Footer from './Footer'
-import React from 'react';
 import '../styles/styles.scss'
 
 class App extends React.Component{
@@ -10,6 +11,7 @@ class App extends React.Component{
       <div className="App">
           <Presentation/>
           <Projects/>
+          <Tools/>
           <Footer/>
       </div>
     );

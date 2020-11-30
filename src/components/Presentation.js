@@ -1,12 +1,19 @@
 import React from 'react';
-class Presentation extends React.Component{
-    render(){
-        return(
+import profilePic from '../resources/1517600382529.jpg'
+class Presentation extends React.Component {
+    render() {
+        return (
             <div className="Presentation">
                 <div class="container presentationContent">
-                    <h2>Hola mundo</h2>
+                    <img src={profilePic} alt="Imagen de perfil Pablo Rey"/>
+                    <h2>¿Quién soy?</h2>
                     <p>
-                    Lorem fistrum llevame al sircoo quietooor diodeno. Me cago en tus muelas qué dise usteer de la pradera jarl. Diodeno diodenoo te voy a borrar el cerito a peich no te digo trigo por no llamarte Rodrigor torpedo. Amatomaa me cago en tus muelas quietooor te va a hasé pupitaa condemor apetecan ese que llega sexuarl amatomaa tiene musho peligro. Te voy a borrar el cerito ese que llega pupita benemeritaar se calle ustée sexuarl amatomaa.
+                        Me llamo Pablo Rey Campo, nací el 3 de Noviembre de 1995 y me apasiona la tecnología. Desde pequeño ya tenía claro que quería trabajar en algo relacionado con los ordenadores, por lo que cuando terminé el instituto en 2013, comencé a estudiar la carrera de Ingeniería Informática en la UPNA. 
+                        En el año 2017 y tras realizar el periodo de Erasmus en Finlandia, terminé la carrera y comencé mi aventura en el mundo laboral. Ese mismo año en paralelo al trabajo y para seguir creciendo, comencé los estudios del Máster en Ingeniería Informática en la misma universidad. Finalicé estos estudios en el año 2020.
+                        <br></br>
+                        <br></br>
+                        Me considero una persona trabajadora, con muchas ganas de aprender cosas nuevas que siempre está tratando de mejorar como profesional en el sector. Estoy abierto a cualquier reto tecnológico que se presente y me encanta trabajar en equipo.
+                        Además de la informática, me encanta el CrossFit, la que considera mi segunda gran pasión a día de hoy.
                     </p>
                 </div>
             </div>
