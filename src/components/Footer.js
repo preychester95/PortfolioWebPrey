@@ -28,7 +28,7 @@ class Footer extends React.Component {
                             680704852
                         </li>
                         <li class="col-md-3 col-xs-12">
-                            <img src={mailLogo} alt="Correo Pablo Rey" />
+                                <img src={mailLogo} alt="Correo Pablo Rey" />
                             b2atic.preyc@gmail.com
                         </li>
                     </ul>
