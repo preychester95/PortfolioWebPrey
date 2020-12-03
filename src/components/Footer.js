@@ -10,28 +10,33 @@ class Footer extends React.Component {
             <div className="Footer">
                 <footer class="footerContent">
                     <h3>Contacto</h3>
-                    <ul>
-                        <li class="col-md-3 col-xs-12">
-                            <a href="https://www.linkedin.com/in/pablo-rey-campo-ba459213a/">
-                                <img src={linkedinLogo} alt="Linkedin Pablo Rey" />
+                    <div class="container">
+                        <ul>
+                            <div class="row">
+                                <li class="col-md-3 col-xs-12">
+                                    <a href="https://www.linkedin.com/in/pablo-rey-campo-ba459213a/">
+                                        <img src={linkedinLogo} alt="Linkedin Pablo Rey" />
                                 Linkedin
                             </a>
-                        </li>
-                        <li class="col-md-3 col-xs-12">
-                            <a href="https://github.com/preychester95">
-                                <img src={githubLogo} alt="GitHub Pablo Rey" />
+                                </li>
+                                <li class="col-md-3 col-xs-12">
+                                    <a href="https://github.com/preychester95">
+                                        <img src={githubLogo} alt="GitHub Pablo Rey" />
                                 Github
                             </a>
-                        </li>
-                        <li class="col-md-3 col-xs-12">
-                            <img src={phoneLogo} alt="Teléfono Pablo Rey" />
+                                </li>
+                                <li class="col-md-3 col-xs-12">
+                                    <img src={phoneLogo} alt="Teléfono Pablo Rey" />
                             680704852
                         </li>
-                        <li class="col-md-3 col-xs-12">
-                                <img src={mailLogo} alt="Correo Pablo Rey" />
+                                <li class="col-md-3 col-xs-12">
+                                    <img src={mailLogo} alt="Correo Pablo Rey" />
                             b2atic.preyc@gmail.com
                         </li>
-                    </ul>
+
+                            </div>
+                        </ul>
+                    </div>
                     <div class="copyright">
                         © PREY - 2020.
 					</div>

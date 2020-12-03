@@ -1,5 +1,5 @@
 .Footer{
-    background-color: #111111;
+    background-color: $footerBackgroundColor;
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
     .footerContent{
@@ -12,8 +12,7 @@
             text-transform: uppercase;
         }
         li{
-            display: inline;
-            margin: 0.625rem;
+            margin: 0.625rem 0;
         }
         a{
             color: rgba(255, 255, 255, 0.5);
