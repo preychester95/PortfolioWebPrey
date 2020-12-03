@@ -1,6 +1,6 @@
 .Presentation{
     background-image: url("../resources/cta01.jpg");
-    background-color: #ce1b28;
+    background-color: $presentationColor;
     color: rgba(255, 255, 255, 1);
     background-attachment: fixed;
     background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 5)), url(../resources/cta01.jpg);
@@ -13,8 +13,8 @@
     .presentationContent{
         padding: 5rem 0;
         img{
-            width:150px;
-            height:150px;
+            width:9.375rem;
+            height:9.375rem;
             object-fit:cover;
             border-radius:50%;
         }

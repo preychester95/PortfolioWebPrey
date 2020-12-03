@@ -1,9 +1,9 @@
 .Card{
-    border-radius: 25px;
-    border: 2px solid #ada4a4;
-    padding: 20px;
+    border-radius: 1.563rem;
+    border: 0.125rem solid $cardColor;
+    padding: 1.25rem;
     margin: 2rem;
-    height: 400px;
+    height: 25rem;
     h3{
         font-size: 1.25rem;
         font-weight: bold;

@@ -1,4 +1,7 @@
 .Tools{
-    color: #555555;
+    color: $toolsColor;
     text-align: center;
+    border-top: 0.5px solid $toolsColor;
+    padding-top: 1.25rem;
+    margin-bottom: 1.25rem;
 }

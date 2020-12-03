@@ -7,17 +7,16 @@ class Tools extends React.Component {
                 <div class="row">
                     <div class="col-md-3 col-xs-12">
                         <ul>
-                            <h4>Lenguajes</h4>
+                            <h6><u>Lenguajes</u></h6>
                             <li>Java Android</li>
                             <li>Java Web</li>
                             <li>HTML, Javascript, SASS</li>
-                            <li>React</li>
                             <li>Python</li>
                         </ul>
                     </div>
                     <div class="col-md-3 col-xs-12">
                         <ul>
-                            <h4>Base de datos</h4>
+                            <h6><u>Base de datos</u></h6>
                             <li>MySQL</li>
                             <li>SQL Server</li>
                             <li>Mongo DB</li>
@@ -26,15 +25,16 @@ class Tools extends React.Component {
                     </div>
                     <div class="col-md-3 col-xs-12">
                         <ul>
-                            <h4>IDEs</h4>
-                            <li>Android Studio</li>
-                            <li>IntelliJ</li>
-                            <li>Visual Studio Code</li>
+                            <h6><u>Patrones y Arquitecturas</u></h6>
+                            <li>Arquitectura hexagonal</li>
+                            <li>DDD</li>
+                            <li>MVP</li>
+                            <li>MVC</li>
                         </ul>
                     </div>
                     <div class="col-md-3 col-xs-12">
                         <ul>
-                            <h4>Herramientas</h4>
+                            <h6><u>Herramientas</u></h6>
                             <li>Liferay</li>
                             <li>REST API</li>
                             <li>Apache</li>

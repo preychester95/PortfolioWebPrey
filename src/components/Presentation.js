@@ -13,7 +13,7 @@ class Presentation extends React.Component {
                         <br></br>
                         <br></br>
                         Me considero una persona trabajadora, con muchas ganas de aprender cosas nuevas que siempre está tratando de mejorar como profesional en el sector. Estoy abierto a cualquier reto tecnológico que se presente y me encanta trabajar en equipo.
-                        Además de la informática, me encanta el CrossFit, la que considera mi segunda gran pasión a día de hoy.
+                        Además de la informática, me encanta el CrossFit, la que considero mi segunda gran pasión a día de hoy.
                     </p>
                 </div>
             </div>
