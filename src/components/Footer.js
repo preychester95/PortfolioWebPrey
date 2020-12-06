@@ -9,9 +9,9 @@ class Footer extends React.Component {
         return (
             <div className="Footer">
                 <footer class="footerContent">
-                    <h3>Contacto</h3>
                     <div class="container">
                         <ul>
+                        <h3>Contacto</h3>
                             <div class="row">
                                 <li class="col-md-3 col-xs-12">
                                     <a href="https://www.linkedin.com/in/pablo-rey-campo-ba459213a/">

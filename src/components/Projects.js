@@ -71,14 +71,14 @@ class Projects extends React.Component {
                     <ul>
                         <div class="row">
                             <li class="col-md-4 col-sm-12 col-xs-12">
-                                <Card title={this.getForestalesTitle()}
-                                    date={this.getForestalesDate()}
-                                    content={this.getForestalesContent()} />
+                                <Card title={this.getGNTitle()}
+                                    date={this.getGNDate()}
+                                    content={this.getGNContent()} />
                             </li>
                             <li class="col-md-4 col-sm-12 col-xs-12">
-                                <Card title={this.getBusTitle()}
-                                    date={this.getBusDate()}
-                                    content={this.getBusContent()} />
+                                <Card title={this.getNavarraTitle()}
+                                    date={this.getNavarraDate()}
+                                    content={this.getNavarraContent()} />
                             </li>
                             <li class="col-md-4 col-sm-12 col-xs-12">
                                 <Card title={this.getDocsTitle()}
@@ -86,15 +86,14 @@ class Projects extends React.Component {
                                     content={this.getDocsContent()} />
                             </li>
                             <li class="col-md-4 col-sm-12 col-xs-12">
-                                <Card title={this.getNavarraTitle()}
-                                    date={this.getNavarraDate()}
-                                    content={this.getNavarraContent()} />
+                                <Card title={this.getBusTitle()}
+                                    date={this.getBusDate()}
+                                    content={this.getBusContent()} />
                             </li>
-
                             <li class="col-md-4 col-sm-12 col-xs-12">
-                                <Card title={this.getGNTitle()}
-                                    date={this.getGNDate()}
-                                    content={this.getGNContent()} />
+                                <Card title={this.getForestalesTitle()}
+                                    date={this.getForestalesDate()}
+                                    content={this.getForestalesContent()} />
                             </li>
                         </div>
                     </ul>

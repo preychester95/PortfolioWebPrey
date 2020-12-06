@@ -10,6 +10,11 @@
 body{
     color: $primaryColor;
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+p {
+    word-break: break-word;
 }
 
 ul {
